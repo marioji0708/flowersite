@@ -41,11 +41,11 @@ img{
 .page-title,
 .heading-large,
 .heading-medium{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
 .page-title{
-    margin-top: 1rem;
+    margin-top: 6rem;
     line-height: 1.4rem;
 }
 .heading-larg{
@@ -108,7 +108,8 @@ img{
 /* NEWS
 ------------------------------- */
 .cover-news {
-    background-image: url(../images/about12.jpg);
+    background-image: url(../images/about13.jpg);
+    
 }
 
 /* 記事部分 */
@@ -192,7 +193,8 @@ img{
 /* CONTACT
 ------------------------------- */
 .cover-contact {
-    background-image: url(../images/cover-contact-s.webp);
+    background-image: url(../images/about24.jpg);
+    
 }
 
 /* 店舗情報 */
@@ -301,6 +303,7 @@ info th{
 /* HOME */
 .cover-home{
     background-image: url(../images/about12.jpg);
+    background-size: contain;
 }
 .about{
     max-width: 800px;
@@ -311,7 +314,8 @@ info th{
 /* NEWS 
 ------------------------*/
 .cover-news{
-    background-image: url(../images/about12.jpg);
+    background-image: url(../images/about13.jpg);
+    background-size: contain;
 }
 .news-contents{
     display: flex;
@@ -364,7 +368,8 @@ info th{
 /* CONTACT
 ------------------------------- */
 .cover-contact {
-    background-image: url(../images/cover-contact-l.webp);
+    background-image: url(../images/about24.jpg);
+    background-size: contain;
 }
 .location{
     display: flex;
