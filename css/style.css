@@ -8,7 +8,7 @@ html{
     font-size: 40%;
 }
 body{
-    background-color: #000000;
+    background-color: #161616f1;
     font-family: serif;
 
     line-height: 1.7;
@@ -55,7 +55,6 @@ img{
 
 
 
-
 /* ヘッダー 
 ------------------------------------------*/
 .page-header{
@@ -75,7 +74,7 @@ img{
     color: #ffffff;
 }
 .main-nav a:hover{
-    color: #0bd;
+    color: rgba(245, 250, 179, 0.425);
 }
 
 /* ヘッダーカバー画像 */
@@ -92,7 +91,7 @@ img{
     padding: 0%;
 }
 
-/* HOME
+/* TOP
 ------------------------------- */
 .cover-home{
     background-image: url(../images/about12copy.jpg);
@@ -105,6 +104,15 @@ img{
 .about p{
     margin-bottom: 3rem;
 }
+
+/*ABOUT
+-------------------------------*/
+.cover-about {
+    background-image: url(../images/about5.jpg);
+}
+
+
+
 /* NEWS
 ------------------------------- */
 .cover-news {
@@ -131,7 +139,7 @@ img{
     list-style: none;
 }
 .post-cat a {
-    color: #432;
+    color: #ffffff;
     background-color: #faf7f0;
     border-radius: 8px;
     font-size: .875rem;
@@ -162,12 +170,12 @@ img{
     border-bottom: 1px solid #c9c2bc;
 }
 .side-menu a {
-    color: #432;
+    color: #ffffff;
     display: block;
     padding: 1rem;
 }
 .side-menu a:hover {
-    color: #0bd;
+    color: rgba(245, 250, 179, 0.425); 
 }
 
 /* MENU
@@ -302,13 +310,19 @@ info th{
 
 /* HOME */
 .cover-home{
-    background-image: url(../images/about12.jpg);
+    background-image: url(../images/about12a.jpg);
     background-size: contain;
 }
 .about{
     max-width: 800px;
     padding: 0 1.5rem;
     margin: 4rem auto 0;    
+}
+
+/*ABOUT
+-------------------------------*/
+.cover-about {
+    background-image: url(../images/about5.jpg);
 }
 
 /* NEWS 
@@ -350,7 +364,8 @@ info th{
     text-align: center;
 }
 .item img{
-    margin-bottom: .5rem;
+    margin-right: .8rem;
+    margin-bottom: .8rem;
 }
 .item p{
     font-size: 1rem;
