@@ -117,6 +117,9 @@ img{
 -------------------------------*/
 .cover-about {
     background-image: url(../images/about5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -125,7 +128,9 @@ img{
 ------------------------------- */
 .cover-news {
     background-image: url(../images/about13.jpg);
-    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* 記事部分 */
@@ -185,6 +190,12 @@ img{
 .side-menu a:hover {
     color: rgba(245, 250, 179, 0.425); 
 }
+
+/* lesson
+------------------------------- */
+
+
+
 
 /* GALLERY
 ------------------------------- */
@@ -314,7 +325,7 @@ info th{
 
 /* ヘッダーカバー画像 */
 .sub-cover{
-    height: 400px;
+    height: 100vh;
     margin-bottom: 6rem;
 }
 
@@ -360,6 +371,10 @@ info th{
     line-height: 1;
     margin-bottom: 1rem;
 }
+
+/* lesson
+------------------------------- */
+
 
 
 /* GALLERY 
