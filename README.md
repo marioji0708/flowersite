@@ -27,7 +27,7 @@ Java / JSP / CSS を用いて開発した Web アプリケーションです。
 ---
 
 ## 📂 ディレクトリ構成（例）
-
+```
 project/
 ├── style.css
 ├── index.html
@@ -37,7 +37,7 @@ project/
 ├── gallary.html
 ├── contact.html 
 └── README.md
-
+```
 
 
 ---
