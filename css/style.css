@@ -138,6 +138,8 @@ img{
 /* 記事部分 */
 .post {
     margin-bottom: 3rem;
+  
+    
 }
 .post-title {
     font-weight: normal;
@@ -147,11 +149,14 @@ img{
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem;
+  
 }
 .post-cat {
     display: flex;
     gap: .5rem;
     list-style: none;
+    
+      
 }
 .post-cat a {
     color: #ffffff;
@@ -159,6 +164,7 @@ img{
     border-radius: 8px;
     font-size: .875rem;
     padding: .5rem .75rem;
+   
 }
 .post-cat a:hover {
     background-color: #c9c2bc;
@@ -169,10 +175,13 @@ img{
 .post-thumbnail {
     border-radius: 16px;
     margin-bottom: 1.5rem;
+    
 }
 .post p {
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
     line-height: 2;
+    
 }
 
 /* サイドバー */
@@ -265,7 +274,7 @@ img{
     height: 100%;
 }
 
-/* フッター　
+/* フッター
 ----------------------------------*/
 
 .page-footer{
@@ -285,7 +294,7 @@ img{
 .info td{
     border-bottom: 1px solid #c9c2bc;
 }
-info th{
+.info th{
     text-align: left;
     font-weight: normal;
     padding: 1rem;
@@ -362,6 +371,7 @@ info th{
     width: 60%;
     order: 2;
 }
+
 .sidebar{
     width: 22%;
     order: 3;
