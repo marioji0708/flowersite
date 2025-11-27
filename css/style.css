@@ -8,7 +8,7 @@ html{
     font-size: 40%;
 }
 body{
-    background-color: #161616f1;
+    background-color: #292929f1;
     font-family: serif;
 
     line-height: 1.7;
@@ -28,7 +28,7 @@ img{
 .wrapper{
     max-width: 1120px;
     margin: auto;
-    padding: 0 1.5rem;
+    padding:  1.5rem;
 }
 .align-center{
     text-align: center;
@@ -251,7 +251,7 @@ img{
 /* お問い合わせ */
 .email {
     max-width: 916px;
-    background-color: #faf7f0;
+    background-color: #d8d5cd;
     border-radius: 48px;
     padding: 1.5rem 2.5rem 2.5rem;
     margin: 0 auto 2rem;
